@@ -1,10 +1,9 @@
 docker-hugo
 ===========
 
-[![](https://images.microbadger.com/badges/image/solidnerd/hugo.svg)](http://microbadger.com/images/solidnerd/hugo "Get your own image badge on microbadger.com") [![](https://images.microbadger.com/badges/commit/solidnerd/hugo.svg)](https://microbadger.com/images/solidnerd/hugo "Get your own commit badge on microbadger.com")
-
 [Hugo](https://gohugo.io) in a docker container
 
+WARNING: This repo is not maintained. Please see the original if anything doesn't work right for you.
 
 # How to use this Image
 
@@ -35,6 +34,3 @@ Here are all possible hugo build args listed.
 | `HUGO_DOWNLOAD_URL` | Sets the hugo download url during the build. Defaults to `https://github.com/spf13/hugo/releases/download/v$HUGO_VERSION/hugo_"$HUGO_VERSION"_Linux-64bit.tar.gz"`  |
 | `HUGO_DOWNLOAD_FILE_NAME` | Sets the hugo filename during the build. Defaults to `hugo.tar.gz` |
 
-## Issues
-
-If you have any issues feel free to create an [issue on GitHub](https://github.com/solidnerd/docker-hugo/issues)
